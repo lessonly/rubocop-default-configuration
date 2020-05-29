@@ -1,0 +1,15 @@
+AllCops:
+  NewCops: enable
+
+  Exclude:
+    - 'db/**/*'
+    - 'vendor/bundle/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
+    - 'bin/{rails,rake}'
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
